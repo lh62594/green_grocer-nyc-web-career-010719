@@ -83,6 +83,9 @@ def checkout(cart, coupons)
   if consolidated_cart.length > 0
     apply_coupons(consolidated_cart, coupons)
     apply_clearance(consolidated_cart)
+  end
+
+  
 
 
 
